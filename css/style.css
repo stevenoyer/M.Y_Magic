@@ -1,0 +1,53 @@
+.container {
+    border: 1px solid #eb5172;
+    padding: 20px;
+}
+
+.row {
+    border: 1px solid #7451EB;
+    padding: 3px;
+}
+
+[class^="col"] {
+    padding: 1rem;
+    border: 2px solid #3FA5DB;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    background-color: black;
+}
+
+/*Partie présentation*/
+.presentation {
+    background-image:url("../images/photoPresentation.jpg");
+    height: 800px;
+    max-width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentation h1{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin-left: 50%;
+}
+
+/* Partie clients*/
+[class^="card"]{
+    background-color:black;
+}
+
+
+/*Partie footer*/
+#logo img{
+    height: 60px;
+}
