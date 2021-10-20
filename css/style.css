@@ -23,7 +23,7 @@ body {
 }
 
 /*Partie présentation*/
-.presentation {
+#presentation {
     background-image:url("../images/photoPresentation.jpg");
     height: 800px;
     max-width:100%;
@@ -31,14 +31,36 @@ body {
     background-size: cover;
 }
 
-.presentation h1{
+#presentation h1{
     text-align: center;
     align-items: center;
     display: flex;
     height: 800px;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 50%;
     margin-left: 50%;
+    padding-left: 10%;
+}
+
+/* Partie citation*/
+#citation {
+    background-image: url("../images/photoCitation.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#citation article{
+    height: 388px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#citation h2 {
+    text-align: center;
+}
+#citation p {
+    text-align: center;
 }
 
 /* Partie clients*/
