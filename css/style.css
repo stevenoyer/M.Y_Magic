@@ -33,7 +33,7 @@ h2{
     font-family: 'milkshakeregular';
 }
 
-.container {
+/*.container {
     border: 1px solid #eb5172;
     padding: 20px;
 }
@@ -46,7 +46,7 @@ h2{
 [class^="col"] {
     padding: 1rem;
     border: 2px solid #3FA5DB;
-}
+}*/
 
 body {
     background-color: black;
@@ -55,6 +55,12 @@ body {
 
 .navbar{
     background-color: black;
+}
+
+/*Header*/
+#logoMY {
+    height: 130px;
+    margin: -30px;
 }
 
 /*Partie présentation*/
@@ -77,6 +83,7 @@ body {
     font-family: 'intro_rust_gbase_2_line';
 }
 
+
 /* Partie citation*/
 #citation {
     background-image: url("../images/photoCitation.jpg");
@@ -95,19 +102,33 @@ body {
 #citation h2 {
     text-align: center;
 }
+
 #citation p {
     text-align: center;
     font-family: 'alex_brushregular';
     font-size: 20px;
 }
 
+
 /* Partie clients*/
 [class^="card"]{
     background-color:black;
 }
 
+/* Partie clients v2*/
+#clients2 img{
+    height: 130px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /*Partie footer*/
 #logo img{
     height: 60px;
+    padding-left: 20px;
+}
+
+#linkedin{
+    height: 70px;
 }
