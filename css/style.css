@@ -29,6 +29,7 @@
 
 
 /*Corps de texte*/
+
 h2{
     font-family: 'milkshakeregular';
 }
@@ -57,13 +58,17 @@ body {
     background-color: black;
 }
 
+
 /*Header*/
+
 #logoMY {
-    height: 130px;
-    margin: -30px;
+    height: 100px;
+    /*margin: -30px;*/
 }
 
+
 /*Partie présentation*/
+
 #presentation {
     background-image:url("../images/photoPresentation.jpg");
     height: 800px;
@@ -85,6 +90,7 @@ body {
 
 
 /* Partie citation*/
+
 #citation {
     background-image: url("../images/photoCitation.jpg");
     background-size: cover;
@@ -110,20 +116,32 @@ body {
 }
 
 
-/* Partie clients*/
-[class^="card"]{
-    background-color:black;
+/* Partie témoignages */
+
+#temoignages h6{
+    font-family: 'alex_brushregular';
+    font-size: 30px;
 }
 
-/* Partie clients v2*/
-#clients2 img{
+#temoignages div{
+    border: 2px solid white;
+    /*margin: 0px;*/
+    border-radius: 25px 25px 50px 0;
+}
+
+
+/* Partie clients*/
+
+#clients img{
     height: 130px;
     margin-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
+
 /*Partie footer*/
+
 #logo img{
     height: 60px;
     padding-left: 20px;
