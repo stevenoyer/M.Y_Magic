@@ -129,6 +129,11 @@ body {
     border-radius: 25px 25px 50px 0;
 }
 
+/* Partie prestation*/
+[class^="card"]{
+    background-color: black;
+}
+
 
 /* Partie clients*/
 
